@@ -208,3 +208,10 @@ __marimo__/
 
 # Project-specific
 test-images/
+
+# Runtime SQLite database
+data/*.db
+data/*.db-*
+
+# Local editor / agent settings
+.claude/
