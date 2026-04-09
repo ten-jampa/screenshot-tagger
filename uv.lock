@@ -677,6 +677,7 @@ dependencies = [
     { name = "ipykernel" },
     { name = "ollama" },
     { name = "pillow" },
+    { name = "pydantic" },
 ]
 
 [package.metadata]
@@ -685,6 +686,7 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=7.2.0" },
     { name = "ollama", specifier = ">=0.6.1" },
     { name = "pillow", specifier = ">=12.2.0" },
+    { name = "pydantic", specifier = ">=2.12.5" },
 ]
 
 [[package]]
